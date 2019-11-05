@@ -4,35 +4,33 @@
   <head>
     <meta charset="utf-8">
     <title>Corey Crisp: Home</title>
+    <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
   </head>
 
   <!-- Body of HTML page -->
   <body>
-
-        <!-- Header -->
+    <!-- Header -->
     <header>
       <h1>Corey Crisp</h1>
-      <h3><em>Mechatronics Engineer</em></h3>
+      <h3>Marine Electronics Engineer</h3>
       <h4>MS Mechanical Engineering, University of Washington 2016</h4>
     </header>
-    <hr> <!-- This is a "thematic break" adds a visible break line in page -->
-    <nav>
-      <a>Home</a> |
+
+    <nav class="m">
+      <a class="first">Home</a> |
       <a  href="about-me.html">About Me</a>
     </nav> 
 
-    <hr> <!-- This is a "thematic break" adds a visible break line in page -->
-
     <main>
 
-      <header>
-        <h2>Projects -</h2>
-      </header>
-
-      <ul>
-        <li><a href="#daisy">DAISY</a></li>
-        <li><a href="#coursework">Clutch the Dog</a></li>
-      </ul>
+      <section>
+        <h2>Current and Past Projects - </h2>
+        <nav>
+          <a href="#daisy">DAISY</a> | 
+          <a href="#ufloat">µFloat</a> | 
+          <a href="#coursework">Clutch the Dog</a>
+        </nav>
+      </section>
 
       <!-- Projects -->
       <section id="daisy">
@@ -52,6 +50,26 @@
           <p>The Drifting Acoustic Instrumentation SYstem, DAISY, is an instrumentation package developed at the University of Washington for recording sound in high-energy marine environments. These systems are used to study noise propogration from marine energy converters (MECs) to inform regulations for noise emissions from those devices.</p>
           <h4>My Role:</h4>
           <p>The DAISYs are a custom system that were designed, manufactured, and assembled by my colleagues and I at the University of Washington. My tasks included: designing custom electronics with multiple sensors and a high-fidelity hydrophone recording system, along with creating the onboard control software and data offload GUI.</p>
+        </article>
+      </section>
+
+      <section id="ufloat">
+        <h3>
+          <a href="https://www.pmec.us/research-projects/microfloat" target="new">
+            µFloat: MicroFloat
+          </a>
+        </h3>
+        <figure>
+          <a href="images/ufloat-full.jpg" target="new">
+            <img src="images/ufloat.jpg" alt="MicroFloat system being tossed into Sequim Bay for a test deployment">
+          </a>
+          <figcaption>MicroFloat system being tossed into Sequim Bay for a test deployment</figcaption>
+        </figure>
+        <article>
+          <h4>Summary:</h4>
+          <p>Blah. Blah. Need to update...</p>
+          <h4>My Role:</h4>
+          <p>Blah. Blah. Need to update...</p>
         </article>
       </section>
 
@@ -78,16 +96,12 @@
     </main>
 
     <!-- Bottom of the page stuff -->
-    <hr> <!-- This is a "thematic break" adds a visible break line in page -->
-
     <!-- Footer -->
     <footer>
-      <address>
+      <address class="center">
         Contact the author of this page:
         <a href="mailto:crispc85@gmail.com">crispc85@gmail.com</a>
       </address>
     </footer>
-
   </body>
-
 </html>
