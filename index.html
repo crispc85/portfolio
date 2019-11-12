@@ -5,101 +5,103 @@
     <meta charset="utf-8">
     <title>Corey Crisp: Home</title>
     <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+    <!-- Place your kit's code here -->
+    <script src="https://kit.fontawesome.com/4d1244dcbe.js" crossorigin="anonymous"></script>
   </head>
 
   <!-- Body of HTML page -->
   <body>
     <!-- Header -->
     <header>
+      <nav class="m">
+        <a class="first">Home</a> <i class="fas fa-grip-lines-vertical"></i>
+        <a  href="about-me.html">About Me</a>
+      </nav> 
+
       <h1>Corey Crisp</h1>
       <h3>Marine Electronics Engineer</h3>
       <h4>MS Mechanical Engineering, University of Washington 2016</h4>
     </header>
 
-    <nav class="m">
-      <a class="first">Home</a> |
-      <a  href="about-me.html">About Me</a>
-    </nav> 
-
     <main>
-
-      <section>
-        <h2>Current and Past Projects - </h2>
+      <section id="main-heading">
+        <h2>Projects - </h2>
         <nav>
-          <a href="#daisy">DAISY</a> | 
-          <a href="#ufloat">µFloat</a> | 
+          <a href="#daisy">DAISY</a> <i class="fas fa-grip-lines-vertical"></i> 
+          <a href="#ufloat">µFloat</a> <i class="fas fa-grip-lines-vertical"></i> 
           <a href="#coursework">Clutch the Dog</a>
         </nav>
       </section>
 
-      <!-- Projects -->
-      <section id="daisy">
-        <h3>
-          <a href="https://www.pmec.us/research-projects/daisy-instrumentation" target="new">
-            DAISY: Drifting Acoustic Instrumentation SYstem
-          </a>
-        </h3>
-        <figure>
-          <a href="images/daisy-full.jpg" target="new">
-            <img src="images/daisy-thumb.jpg" alt="Drifting Acoustic Instrumentation SYstem (DAISY) floating in Sequim Bay, Washington with Mount Baker in the background">
-          </a>
-          <figcaption>Drifting Acoustic Instrumentation SYstem (DAISY) floating in Sequim Bay, Washington with Mount Baker in the background</figcaption>
-        </figure>
-        <article>
-          <h4>Summary:</h4>
-          <p>The Drifting Acoustic Instrumentation SYstem, DAISY, is an instrumentation package developed at the University of Washington for recording sound in high-energy marine environments. These systems are used to study noise propogration from marine energy converters (MECs) to inform regulations for noise emissions from those devices.</p>
-          <h4>My Role:</h4>
-          <p>The DAISYs are a custom system that were designed, manufactured, and assembled by my colleagues and I at the University of Washington. My tasks included: designing custom electronics with multiple sensors and a high-fidelity hydrophone recording system, along with creating the onboard control software and data offload GUI.</p>
-        </article>
-      </section>
+      <div class="flex-container">
+        <!-- Projects -->
+        <section class="projects" id="daisy">
+          <h3>
+            <a href="https://www.pmec.us/research-projects/daisy-instrumentation" target="new">
+              DAISY
+            </a>
+          </h3>
+          <figure>
+            <a href="images/daisy-full.jpg" target="new">
+              <img src="images/daisy-full.jpg" alt="Drifting Acoustic Instrumentation SYstem (DAISY) floating in Sequim Bay, Washington with Mount Baker in the background">
+            </a>
+            <figcaption>Drifting Acoustic Instrumentation SYstem (DAISY) floating in Sequim Bay, Washington with Mount Baker in the background</figcaption>
+          </figure>
+          <article>
+            <h4>Summary:</h4>
+            <p>The Drifting Acoustic Instrumentation SYstem, DAISY, is an instrumentation package developed at the University of Washington for recording sound in high-energy marine environments. These systems are used to study noise propogration from marine energy converters (MECs) to inform regulations for noise emissions from those devices.</p>
+            <h4>My Role:</h4>
+            <p>The DAISYs are a custom system that were designed, manufactured, and assembled by my colleagues and I at the University of Washington. My tasks included: designing custom electronics with multiple sensors and a high-fidelity hydrophone recording system, along with creating the onboard control software and data offload GUI.</p>
+          </article>
+        </section>
 
-      <section id="ufloat">
-        <h3>
-          <a href="https://www.pmec.us/research-projects/microfloat" target="new">
-            µFloat: MicroFloat
-          </a>
-        </h3>
-        <figure>
-          <a href="images/ufloat-full.jpg" target="new">
-            <img src="images/ufloat.jpg" alt="MicroFloat system being tossed into Sequim Bay for a test deployment">
-          </a>
-          <figcaption>MicroFloat system being tossed into Sequim Bay for a test deployment</figcaption>
-        </figure>
-        <article>
-          <h4>Summary:</h4>
-          <p>Blah. Blah. Need to update...</p>
-          <h4>My Role:</h4>
-          <p>Blah. Blah. Need to update...</p>
-        </article>
-      </section>
+        <section class="projects" id="ufloat">
+          <h3>
+            <a href="https://www.pmec.us/research-projects/microfloat" target="new">
+              MicroFloat
+            </a>
+          </h3>
+          <figure>
+            <a href="images/ufloat-full.jpg" target="new">
+              <img src="images/ufloat-full.jpg" alt="MicroFloat system being tossed into Sequim Bay for a test deployment">
+            </a>
+            <figcaption>MicroFloat system being tossed into Sequim Bay for a test deployment</figcaption>
+          </figure>
+          <article>
+            <h4>Summary:</h4>
+            <p>Blah. Blah. Need to update...</p>
+            <h4>My Role:</h4>
+            <p>Blah. Blah. Need to update...</p>
+          </article>
+        </section>
 
-      <section id="coursework">
-        <h3>
-          <a href="https://htmlpreview.github.io/?https://github.com/crispc85/semantic-elements/blob/master/index.html" target="new">
-            Website Design for Clutch the Dog
-          </a>
-        </h3>
-        <figure>
-          <a href="images/clutch-full.jpg" target="new">
-            <img src="images/clutch-thumb.jpg" alt="Clutch the dog sitting and smiling with Mount Rainer in the background">
-          </a>
-          <figcaption>Clutch the dog sitting and smiling with Mount Rainer in the background</figcaption>
-        </figure>
-        <article>
-          <h4>Summary:</h4>
-          <p>Personal website for CLutch the dog. Worldwide sensation and best boy of them all.</p>
-          <h4>My Role:</h4>
-          <p>Full website design and content creation. It is the BEST website ever! ;)</p>
-        </article>
-      </section>
-
+        <section class="projects" id="coursework">
+          <h3>
+            <a href="https://htmlpreview.github.io/?https://github.com/crispc85/semantic-elements/blob/master/index.html" target="new">
+              Website Design
+            </a>
+          </h3>
+          <figure>
+            <a href="images/clutch-full.jpg" target="new">
+              <img src="images/clutch-full.jpg" alt="Clutch the dog sitting and smiling with Mount Rainer in the background">
+            </a>
+            <figcaption>Clutch the dog sitting and smiling with Mount Rainer in the background</figcaption>
+          </figure>
+          <article>
+            <h4>Summary:</h4>
+            <p>Personal website for CLutch the dog. Worldwide sensation and best boy of them all.</p>
+            <h4>My Role:</h4>
+            <p>Full website design and content creation. It is the BEST website ever! <i class="fas fa-laugh-squint"></i></p>
+          </article>
+        </section>
+      </div>
     </main>
 
     <!-- Bottom of the page stuff -->
     <!-- Footer -->
     <footer>
       <address class="center">
-        Contact the author of this page:
+        <i class="fas fa-paper-plane"></i> Contact the author of this page:
         <a href="mailto:crispc85@gmail.com">crispc85@gmail.com</a>
       </address>
     </footer>
