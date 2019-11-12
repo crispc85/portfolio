@@ -84,15 +84,16 @@ nav.m a {
   padding-left: 10px;
   padding-right: 10px;
   text-decoration: none;
+  transition-property: font-size;
+  transition-delay: 0s;
+}
+
+nav.m a:hover {
+  font-size: 32px;
 }
 
 a:visited {
   color: #B6E1F2;
-}
-
-nav.m a.first {
-  margin-left: 0px;
-  padding-left: 0px;
 }
 
 main {
@@ -138,7 +139,18 @@ main {
   margin: 10px;
   flex-grow: 1;
   flex-basis: 300px;
+  transition-property: background-color;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.5s;
 }
+
+.projects:nth-child(even) {
+  background-color: #012340;
+}
+
+.projects:hover {
+    background-color: #0378A6;
+  }
 
 main article {
   padding-bottom: 30px;
