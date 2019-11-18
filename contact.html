@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Corey Crisp: Contact</title>
+    <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+    <script src="https://kit.fontawesome.com/4d1244dcbe.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+  </head>
+
+  <!-- Body of HTML page -->
+  <body>
+    <!-- Header -->
+    <header>
+      <nav class="m">
+        <a href="index.html">Home</a> <i class="fas fa-grip-lines-vertical"></i>
+        <a href="about-me.html">About Me</a> <i class="fas fa-grip-lines-vertical"></i>
+        <a>Contact</a>
+      </nav>
+      <h1>Corey Crisp</h1>
+      <h3>Marine Electronics Engineer</h3>
+      <h4>MS Mechanical Engineering, University of Washington 2016</h4>
+    </header> 
+
+    <main>
+      <!-- Contact Form -->
+      
+	    <form method="POST" class="form-flex">
+        <h3 id="form-header">Contact Form</h3>
+        <div class="input-flex">
+  	      <label for="msgFirstName">First Name:</label>
+	        <input type="text" id="msgFirstName" name="fName" required>  
+
+          <label for="msgLastName">Last Name:</label>
+          <input type="text" id="msgLastName" name="lName" required>
+          
+  	      <label for="msgEmail">Email Address:</label>
+	        <input type="email" id="msgEmail" name="cEmail" required> 
+
+          <label for="msgTel">Telephone:</label>
+          <input type="tel" id="magTel" name="cTel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" value="nnn-nnn-nnnn">
+          <label for="urgCheck">Urgent?:</label>
+          <input type="checkbox" name="urgentCheck" id="urgCheck">     
+        </div>
+
+        <div class="msg-flex">
+          <label for="msgbox">Message:</label>
+          <textarea name="message" id="msgbox" rows="10" required></textarea>
+        </div>
+
+        <div class="sub-flex">
+          <input type="reset" value="Clear Form">
+          <input type="submit" value="Submit Form" id="submit-button">             
+        </div>
+
+	    </form>
+    </main>
+
+    <!-- Bottom of the page stuff -->
+    <!-- Footer -->
+    <footer>
+      <nav class="center">
+        <a href="contact.html" class="fas fa-paper-plane"></a>
+      </nav>
+    </footer>
+  </body>
+</html>
