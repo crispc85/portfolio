@@ -30,10 +30,8 @@ header {
   width: 90%;
   height: 100%; 
   background-image: url('../images/wave-background.jpg');
-
   background-repeat: no-repeat;
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -239,6 +237,10 @@ ul {
   font-weight: normal;
   font-style: normal;
   padding-bottom: 50px;
+}
+
+.contact {
+  padding: 120px;
 }
 
 .form-flex {
