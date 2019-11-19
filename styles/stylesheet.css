@@ -242,6 +242,10 @@ ul {
 .contact-main {
   padding-top: 200px;
   padding-bottom: 200px;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: 0px;
+  border: 0px;
 }
 
 .form-flex {
