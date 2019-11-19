@@ -239,8 +239,8 @@ ul {
   padding-bottom: 50px;
 }
 
-.contact {
-  padding: 120px;
+.contact-main {
+  padding: 150px;
 }
 
 .form-flex {
@@ -248,7 +248,7 @@ ul {
   border-radius: 25px;
 
   border: 0px;
-  width: 40%;
+  max-width: 800px;
 
   padding-left: 5%;
   padding-right: 5%;
